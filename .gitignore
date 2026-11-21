@@ -1,0 +1,34 @@
+# Instruksi dan skill agent, tidak perlu ikut versi publik
+AGENTS.md
+.agents/
+skills-lock.json
+
+# Spesifikasi projek, disimpan lokal saja
+**/SPEC.md
+SPEC.md
+
+# Catatan dan desain lokal
+docs/
+
+# Hasil kompilasi C/C++ dan debug symbols
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+build/
+**/build/
+cmake-build-*/
+
+# Konfigurasi editor dan file sementara
+.vscode/
+tempCodeRunnerFile.*
+*.tmp
+desktop.ini
